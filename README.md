@@ -12,7 +12,21 @@
 3. Run all cells (execution time: ~5 minutes with rate limiting)
 
 ## Key Findings
-[Your results summary - keep it factual]
+
+
+| Model  | Overall Accuracy | ESI2 Undertriage analysis (sensitivity) |
+| ------------- | ------------- | ------------- |
+| Claude 4  | 86.9%  | 70.0%  |
+| GPT-5  | 86.0%  | 100.0%  |
+| Grok-3  | 90.0%  | 75.0%  |
+
+
+| Model  | Inter-model reliability (Cohen's Kappa) | 
+| ------------- | ------------- | 
+| Claude 4-GPT-5  | -0.163  | 
+| Claude 4-Grok-3 | 0.811  | 
+| GPT-5 - Grok-3  | -0.132  | 
+
 
 ## Regulatory Context
 This evaluation addresses EU AI Act Article 15 requirements for accuracy 
