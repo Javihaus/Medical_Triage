@@ -1,7 +1,7 @@
 # Medical Triage Model Comparison
 
 ## Experimental Design
-- **Dataset**: 50 ESI-stratified emergency cases (8 ESI-1, 20 ESI-2, 15 ESI-3, 5 ESI-4, 2 ESI-5)
+- **Dataset**: 50 ESI-stratified synthetic emergency cases extracted from examples in the ESI Handbook v.5. (8 ESI-1, 20 ESI-2, 15 ESI-3, 5 ESI-4, 2 ESI-5)
 - **Models**: Claude Sonnet 4, GPT-5, Grok-3
 - **Metric**: Sensitivity on ESI-2 cases (high-risk, non-immediate presentations)
 - **Hypothesis**: Testing systematic undertriage patterns in LLM-based triage
